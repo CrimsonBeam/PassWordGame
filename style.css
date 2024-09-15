@@ -1,0 +1,197 @@
+#mainheading{
+    padding-top: 5vh;
+    font-size: 4.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+#heading{
+    padding-top: 5vh;
+    font-size: 4.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+.rules{
+    padding:1vh 2vh;
+    border: black 2px solid;
+    margin: 7vh 2vh;
+    border-radius: 4%;
+}
+.button-home{
+    display: flex;
+    justify-content: end;
+}
+.rules-heading{
+    font-size: 2rem;
+    padding-top: 2vh;
+}
+.labels{
+    padding-left: 5vh;
+}
+.victim-info{
+    padding:1vh 2vh;
+    border: black 2px solid;
+    margin: 3vh 5%;
+    border-radius: 4%;
+    width:90%;
+}
+.password-game{
+    padding:1vh 2vh;
+    margin: 3vh 5%;
+    width:90%;
+}
+.password-field{
+    width: 100%;
+    height: 8vh;
+}
+.hint-section1 {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  .hint-btn1 {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width:100%;
+    text-align: left;
+  }
+  
+  .hint-btn1:hover {
+    background-color: #dddd;
+  }
+  .hint-section2 {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  .hint-btn2 {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width:100%;
+    text-align: left;
+  }
+  
+  .hint-btn2:hover {
+    background-color: #dddd;
+  }
+  .hint-section3 {
+    display: none; /* Initially hidden */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  .hint-btn3 {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width:100%;
+    text-align: left;
+  }
+  
+  .hint-btn3:hover {
+    background-color: #dddd;
+  }
+  .row {
+    display: flex;
+    align-items: stretch; /* Ensures equal height */
+  }
+  .column {
+    padding: 10px;
+    background-color: #f8f9fa; /* Light background for visibility */
+    border: 1px solid #dee2e6;
+    align-items: stretch;
+}
+@media(min-width:641px){
+    .rules{
+        margin:20%;
+        border: black 2px solid;
+        margin-top:10%;
+        border-radius:0%;
+    }
+    #heading{
+        padding-top: 5vh;
+        font-size: 4.5rem;
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+    }
+    .victim-info{
+        padding:1vh 5vh;
+        border: black 0px solid;
+        margin: 0vh 0%;
+        border-radius: 0%;
+        width:30%;
+    }
+    .main-content{
+        padding-top:4%;
+    }
+    .password-game{
+        padding:1vh 5vh;     
+        margin: 0vh 0%;
+        width:auto;
+    }
+    .password-field{
+        width: 100%;
+        height: 8vh;
+    }
+}
+#gameOverScreen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  #gameOverScreen h1 {
+    margin-bottom: 20px;
+  }
+
+  #gameOverScreen button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  body.no-scroll {
+    overflow: hidden;
+  }
+  #WinScreen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: greenyellow;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+  }
+  #WinScreen h1 {
+    margin-bottom: 20px;
+  }
+  
