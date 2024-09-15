@@ -73,6 +73,7 @@ var attempts=4;
 //After Submit Button
 function storeValue() {
     var inputValue = document.querySelector(".password-field").value;
+    inputValue=inputValue.toLowerCase();
     if(attempts!=0){
         if (inputValue==passcode) {
             window.scrollTo(0, 0);
